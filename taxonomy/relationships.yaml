@@ -1,0 +1,1249 @@
+# Taxonomy Relationships
+# Rich contextual relationships (quads) linking entities across multiple dimensions.
+# Each relationship includes subject, predicate, object, and a context block
+# with role, project, domain, compliance, timeframe, and co-occurring skills.
+
+relationships:
+- subject: skill-python
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+    - skill-aws-lambda
+- subject: skill-javascript
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-typescript
+    - skill-react
+    - skill-redux
+    - skill-aws-lambda
+- subject: skill-typescript
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-react
+    - skill-redux
+    - skill-aws-lambda
+- subject: skill-react
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-redux
+    - skill-aws-lambda
+- subject: skill-redux
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-aws-lambda
+- subject: skill-aws-lambda
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-aws-dynamodb
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-aws-sqs
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-aws-api-gateway
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-aws-powertools
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-reportlab
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-typst
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-mistql
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: skill-json-patch
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    compliance:
+    - compliance-cms
+    - compliance-medicare-medicaid
+    - compliance-hipaa
+    co_skills:
+    - skill-python
+    - skill-javascript
+    - skill-typescript
+    - skill-react
+    - skill-redux
+- subject: project-patient-letter-generation
+  predicate: governed_by
+  object: compliance-cms
+  context:
+    organization: org-arine
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: project-clinical-workflow-portals
+  predicate: governed_by
+  object: compliance-hipaa
+  context:
+    organization: org-arine
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: role-document-engineering-manager
+  predicate: held_role_at
+  object: org-arine
+  context:
+    timeframe: 2024-07 to present
+    domain: domain-healthcare
+    project:
+    - project-patient-letter-generation
+    - project-review-management-system
+- subject: project-patient-letter-generation
+  predicate: implements_pattern
+  object: pattern-clean-architecture
+  context:
+    organization: org-arine
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: project-clinical-workflow-portals
+  predicate: implements_pattern
+  object: pattern-serverless-architecture
+  context:
+    organization: org-arine
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: skill-python
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-fastapi
+    - skill-kubernetes
+    - skill-git
+    - skill-cyclonedx
+    - skill-spdx
+    - skill-ci-cd
+- subject: skill-fastapi
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-kubernetes
+    - skill-git
+    - skill-cyclonedx
+    - skill-spdx
+    - skill-ci-cd
+- subject: skill-kubernetes
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-fastapi
+    - skill-git
+    - skill-cyclonedx
+    - skill-spdx
+    - skill-ci-cd
+- subject: skill-git
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-fastapi
+    - skill-kubernetes
+    - skill-cyclonedx
+    - skill-spdx
+    - skill-ci-cd
+- subject: skill-cyclonedx
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-fastapi
+    - skill-kubernetes
+    - skill-git
+    - skill-spdx
+    - skill-ci-cd
+- subject: skill-spdx
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-fastapi
+    - skill-kubernetes
+    - skill-git
+    - skill-cyclonedx
+    - skill-ci-cd
+- subject: skill-ci-cd
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-fastapi
+    - skill-kubernetes
+    - skill-git
+    - skill-cyclonedx
+    - skill-spdx
+- subject: project-sbom-services
+  predicate: implements_pattern
+  object: pattern-shift-left-security
+  context:
+    organization: org-adobe
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+- subject: project-sbom-services
+  predicate: governed_by
+  object: compliance-sbom-standards
+  context:
+    organization: org-adobe
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+- subject: org-adobe
+  predicate: operates_in_domain
+  object: domain-security
+  context:
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+- subject: skill-prometheus
+  predicate: used_at
+  object: org-capital-group
+  context:
+    role: role-strategic-technology-consultant
+    project: project-network-observability-transition
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-opentelemetry
+    - skill-ansible
+    - skill-python
+    - skill-infrastructure-as-code
+- subject: skill-opentelemetry
+  predicate: used_at
+  object: org-capital-group
+  context:
+    role: role-strategic-technology-consultant
+    project: project-network-observability-transition
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-prometheus
+    - skill-ansible
+    - skill-python
+    - skill-infrastructure-as-code
+- subject: skill-ansible
+  predicate: used_at
+  object: org-capital-group
+  context:
+    role: role-strategic-technology-consultant
+    project: project-network-observability-transition
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-prometheus
+    - skill-opentelemetry
+    - skill-python
+    - skill-infrastructure-as-code
+- subject: skill-python
+  predicate: used_at
+  object: org-capital-group
+  context:
+    role: role-strategic-technology-consultant
+    project: project-network-observability-transition
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-prometheus
+    - skill-opentelemetry
+    - skill-ansible
+    - skill-infrastructure-as-code
+- subject: skill-infrastructure-as-code
+  predicate: used_at
+  object: org-capital-group
+  context:
+    role: role-strategic-technology-consultant
+    project: project-network-observability-transition
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-prometheus
+    - skill-opentelemetry
+    - skill-ansible
+    - skill-python
+- subject: project-network-observability-transition
+  predicate: implements_pattern
+  object: pattern-infrastructure-as-code
+  context:
+    organization: org-capital-group
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+- subject: project-network-observability-transition
+  predicate: implements_pattern
+  object: pattern-predictive-analytics
+  context:
+    organization: org-capital-group
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+- subject: skill-python
+  predicate: used_at
+  object: org-department-of-veteran-affairs
+  context:
+    role: role-strategic-technology-consultant
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-hipaa
+    - compliance-fedramp
+    - compliance-va-federal-pii-phi
+    co_skills:
+    - skill-opentelemetry
+    - skill-aws-govcloud
+    - skill-synthetic-data-generation
+    - skill-machine-learning
+- subject: skill-opentelemetry
+  predicate: used_at
+  object: org-department-of-veteran-affairs
+  context:
+    role: role-strategic-technology-consultant
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-hipaa
+    - compliance-fedramp
+    - compliance-va-federal-pii-phi
+    co_skills:
+    - skill-python
+    - skill-aws-govcloud
+    - skill-synthetic-data-generation
+    - skill-machine-learning
+- subject: skill-aws-govcloud
+  predicate: used_at
+  object: org-department-of-veteran-affairs
+  context:
+    role: role-strategic-technology-consultant
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-hipaa
+    - compliance-fedramp
+    - compliance-va-federal-pii-phi
+    co_skills:
+    - skill-python
+    - skill-opentelemetry
+    - skill-synthetic-data-generation
+    - skill-machine-learning
+- subject: skill-synthetic-data-generation
+  predicate: used_at
+  object: org-department-of-veteran-affairs
+  context:
+    role: role-strategic-technology-consultant
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-hipaa
+    - compliance-fedramp
+    - compliance-va-federal-pii-phi
+    co_skills:
+    - skill-python
+    - skill-opentelemetry
+    - skill-aws-govcloud
+    - skill-machine-learning
+- subject: skill-machine-learning
+  predicate: used_at
+  object: org-department-of-veteran-affairs
+  context:
+    role: role-strategic-technology-consultant
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-hipaa
+    - compliance-fedramp
+    - compliance-va-federal-pii-phi
+    co_skills:
+    - skill-python
+    - skill-opentelemetry
+    - skill-aws-govcloud
+    - skill-synthetic-data-generation
+- subject: project-synthetic-data-generation
+  predicate: governed_by
+  object: compliance-hipaa
+  context:
+    organization: org-department-of-veteran-affairs
+    domain: domain-healthcare
+    timeframe: 2020-01 to 2024-07
+- subject: project-zero-trust-data-framework
+  predicate: implements_pattern
+  object: pattern-zero-trust-architecture
+  context:
+    organization: org-department-of-veteran-affairs
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+- subject: project-zero-trust-data-framework
+  predicate: governed_by
+  object: compliance-fedramp
+  context:
+    organization: org-department-of-veteran-affairs
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+- subject: skill-opentelemetry
+  predicate: used_at
+  object: org-serverless
+  context:
+    role: role-senior-software-engineer
+    project: project-opentelemetry-libraries
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-python
+- subject: project-opentelemetry-libraries
+  predicate: implements_pattern
+  object: pattern-asynchronous-process-design
+  context:
+    organization: org-serverless
+    domain: domain-observability
+    timeframe: 2020-01 to 2024-07
+- subject: skill-python
+  predicate: used_at
+  object: org-taos
+  context:
+    role: role-strategic-technology-consultant
+    project: project-microservices-governance
+    domain: domain-finance-enterprise
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-aws
+    - skill-dependency-scanning
+- subject: skill-aws
+  predicate: used_at
+  object: org-taos
+  context:
+    role: role-strategic-technology-consultant
+    project: project-microservices-governance
+    domain: domain-finance-enterprise
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-dependency-scanning
+- subject: skill-dependency-scanning
+  predicate: used_at
+  object: org-taos
+  context:
+    role: role-strategic-technology-consultant
+    project: project-microservices-governance
+    domain: domain-finance-enterprise
+    timeframe: 2020-01 to 2024-07
+    compliance:
+    - compliance-soc-i-ii
+    - compliance-owasp
+    co_skills:
+    - skill-python
+    - skill-aws
+- subject: project-microservices-governance
+  predicate: governed_by
+  object: compliance-soc-i-ii
+  context:
+    organization: org-taos
+    domain: domain-finance-enterprise
+    timeframe: 2020-01 to 2024-07
+- subject: project-microservices-governance
+  predicate: implements_pattern
+  object: pattern-microservice-architecture
+  context:
+    organization: org-taos
+    timeframe: 2020-01 to 2024-07
+- subject: skill-python
+  predicate: used_at
+  object: org-metify
+  context:
+    role: role-principal-system-engineer
+    project: project-edge-paas-provisioning
+    domain: domain-edge-computing
+    timeframe: 2023-01 to 2023-05
+    compliance:
+    - compliance-secure-boot
+    co_skills:
+    - skill-docker
+    - skill-ci-cd
+- subject: skill-docker
+  predicate: used_at
+  object: org-metify
+  context:
+    role: role-principal-system-engineer
+    project: project-edge-paas-provisioning
+    domain: domain-edge-computing
+    timeframe: 2023-01 to 2023-05
+    compliance:
+    - compliance-secure-boot
+    co_skills:
+    - skill-python
+    - skill-ci-cd
+- subject: skill-ci-cd
+  predicate: used_at
+  object: org-metify
+  context:
+    role: role-principal-system-engineer
+    project: project-edge-paas-provisioning
+    domain: domain-edge-computing
+    timeframe: 2023-01 to 2023-05
+    compliance:
+    - compliance-secure-boot
+    co_skills:
+    - skill-python
+    - skill-docker
+- subject: project-edge-paas-provisioning
+  predicate: implements_pattern
+  object: pattern-edge-optimized-architecture
+  context:
+    organization: org-metify
+    domain: domain-edge-computing
+    timeframe: 2023-01 to 2023-05
+- subject: project-edge-paas-provisioning
+  predicate: implements_pattern
+  object: pattern-platform-as-a-service
+  context:
+    organization: org-metify
+    domain: domain-edge-computing
+    timeframe: 2023-01 to 2023-05
+- subject: project-edge-paas-provisioning
+  predicate: governed_by
+  object: compliance-secure-boot
+  context:
+    organization: org-metify
+    domain: domain-edge-computing
+    timeframe: 2023-01 to 2023-05
+- subject: skill-python
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+    - skill-aws-sqs
+- subject: skill-react
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+    - skill-aws-sqs
+- subject: skill-react-native
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+    - skill-aws-sqs
+- subject: skill-aws-lambda
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-dynamodb
+    - skill-aws-sqs
+- subject: skill-aws-dynamodb
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-sqs
+- subject: skill-aws-sqs
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-aws-athena
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-aws-timestream
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-aws-appsync
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-serverless-framework
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-opentelemetry
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-datadog
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-graphql
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-cyclonedx
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: skill-spdx
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-python
+    - skill-react
+    - skill-react-native
+    - skill-aws-lambda
+    - skill-aws-dynamodb
+- subject: project-serverless-platform-migration
+  predicate: implements_pattern
+  object: pattern-serverless-architecture
+  context:
+    organization: org-everyonesocial
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+- subject: project-sqs-workflow-engine
+  predicate: implements_pattern
+  object: pattern-event-driven-architecture
+  context:
+    organization: org-everyonesocial
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+- subject: project-sqs-workflow-engine
+  predicate: implements_pattern
+  object: pattern-asynchronous-process-design
+  context:
+    organization: org-everyonesocial
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+- subject: project-sbom-lifecycle
+  predicate: governed_by
+  object: compliance-sbom-standards
+  context:
+    organization: org-everyonesocial
+    domain: domain-security
+    timeframe: 2020-12 to 2022-12
+- subject: skill-saltstack
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+    project: project-internal-cloud-infrastructure
+    co_skills:
+    - skill-ceph
+    - skill-python
+    - skill-infrastructure-as-code
+- subject: skill-ceph
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+    project: project-internal-cloud-infrastructure
+    co_skills:
+    - skill-saltstack
+    - skill-python
+    - skill-infrastructure-as-code
+- subject: skill-python
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+    project: project-internal-cloud-infrastructure
+    co_skills:
+    - skill-saltstack
+    - skill-ceph
+    - skill-infrastructure-as-code
+- subject: skill-infrastructure-as-code
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+    project: project-internal-cloud-infrastructure
+    co_skills:
+    - skill-saltstack
+    - skill-ceph
+    - skill-python
+- subject: project-internal-cloud-infrastructure
+  predicate: implements_pattern
+  object: pattern-infrastructure-as-code
+  context:
+    organization: org-cgi
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+- subject: project-zero-trust-access-controls
+  predicate: implements_pattern
+  object: pattern-zero-trust-architecture
+  context:
+    organization: org-cgi
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+- subject: project-zero-trust-access-controls
+  predicate: governed_by
+  object: compliance-zero-trust-beyondcorp
+  context:
+    organization: org-cgi
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+- subject: skill-python
+  predicate: used_at
+  object: org-abr
+  context:
+    role: role-gis-specialist
+    project: project-gis-web-applications
+    domain: domain-gis-geospatial
+    timeframe: 2013-04 to 2015-01
+    co_skills:
+    - skill-postgresql
+    - skill-postgis
+    - skill-gdal-ogr
+- subject: skill-postgresql
+  predicate: used_at
+  object: org-abr
+  context:
+    role: role-gis-specialist
+    project: project-gis-web-applications
+    domain: domain-gis-geospatial
+    timeframe: 2013-04 to 2015-01
+    co_skills:
+    - skill-python
+    - skill-postgis
+    - skill-gdal-ogr
+- subject: skill-postgis
+  predicate: used_at
+  object: org-abr
+  context:
+    role: role-gis-specialist
+    project: project-gis-web-applications
+    domain: domain-gis-geospatial
+    timeframe: 2013-04 to 2015-01
+    co_skills:
+    - skill-python
+    - skill-postgresql
+    - skill-gdal-ogr
+- subject: skill-gdal-ogr
+  predicate: used_at
+  object: org-abr
+  context:
+    role: role-gis-specialist
+    project: project-gis-web-applications
+    domain: domain-gis-geospatial
+    timeframe: 2013-04 to 2015-01
+    co_skills:
+    - skill-python
+    - skill-postgresql
+    - skill-postgis
+- subject: project-gis-web-applications
+  predicate: operates_in_domain
+  object: domain-gis-geospatial
+  context:
+    organization: org-abr
+    timeframe: 2013-04 to 2015-01
+- subject: skill-python
+  predicate: used_at
+  object: org-microcom
+  context:
+    role: role-telecom-manager
+    domain: domain-telecommunications
+    timeframe: 2008-05 to 2012-07
+    co_skills:
+    - skill-django
+    - skill-asterisk-pbx
+    - skill-sip-iax
+- subject: skill-django
+  predicate: used_at
+  object: org-microcom
+  context:
+    role: role-telecom-manager
+    domain: domain-telecommunications
+    timeframe: 2008-05 to 2012-07
+    co_skills:
+    - skill-python
+    - skill-asterisk-pbx
+    - skill-sip-iax
+- subject: skill-asterisk-pbx
+  predicate: used_at
+  object: org-microcom
+  context:
+    role: role-telecom-manager
+    domain: domain-telecommunications
+    timeframe: 2008-05 to 2012-07
+    co_skills:
+    - skill-python
+    - skill-django
+    - skill-sip-iax
+- subject: skill-sip-iax
+  predicate: used_at
+  object: org-microcom
+  context:
+    role: role-telecom-manager
+    domain: domain-telecommunications
+    timeframe: 2008-05 to 2012-07
+    co_skills:
+    - skill-python
+    - skill-django
+    - skill-asterisk-pbx
+- subject: project-distributed-telephony-systems
+  predicate: implements_pattern
+  object: pattern-distributed-tracing
+  context:
+    organization: org-microcom
+    domain: domain-telecommunications
+    timeframe: 2008-05 to 2012-07
+- subject: project-field-data-capture
+  predicate: operates_in_domain
+  object: domain-telecommunications
+  context:
+    organization: org-microcom
+    timeframe: 2008-05 to 2012-07
+- subject: skill-apache-kafka
+  predicate: applied_in_project
+  object: project-iot-control-systems
+  context:
+    organization: org-gardyn
+    role: role-technology-development-consultant
+    domain: domain-ag-tech
+    timeframe: 2002-03 to present
+    co_skills:
+    - skill-python
+    - skill-aws
+- subject: project-iot-control-systems
+  predicate: operates_in_domain
+  object: domain-iot-industrial
+  context:
+    organization: org-gardyn
+    timeframe: 2002-03 to present
+- subject: project-iot-control-systems
+  predicate: operates_in_domain
+  object: domain-ag-tech
+  context:
+    organization: org-gardyn
+    timeframe: 2002-03 to present
+- subject: skill-dicom
+  predicate: applied_in_project
+  object: project-telemedicine-imaging
+  context:
+    organization: org-brute-technologies
+    role: role-technology-development-consultant
+    domain: domain-telemedicine
+    timeframe: 2002-03 to present
+    co_skills:
+    - skill-python
+    - skill-aws-s3
+    - skill-hl7-fhir
+- subject: project-telemedicine-imaging
+  predicate: governed_by
+  object: compliance-hipaa
+  context:
+    organization: org-brute-technologies
+    domain: domain-telemedicine
+    timeframe: 2002-03 to present
+- subject: project-telemedicine-imaging
+  predicate: governed_by
+  object: compliance-hl7-fhir
+  context:
+    organization: org-brute-technologies
+    domain: domain-telemedicine
+    timeframe: 2002-03 to present
+- subject: skill-aws-athena
+  predicate: applied_in_project
+  object: project-ad-analytics-pipelines
+  context:
+    organization: org-brute-technologies
+    role: role-technology-development-consultant
+    domain: domain-advertising-media
+    timeframe: 2002-03 to present
+    co_skills:
+    - skill-python
+- subject: project-ad-analytics-pipelines
+  predicate: operates_in_domain
+  object: domain-advertising-media
+  context:
+    organization: org-brute-technologies
+    timeframe: 2002-03 to present
+- subject: project-ad-analytics-pipelines
+  predicate: implements_pattern
+  object: pattern-predictive-analytics
+  context:
+    organization: org-brute-technologies
+    domain: domain-advertising-media
+    timeframe: 2002-03 to present
+- subject: pattern-shift-left-security
+  predicate: co_occurs_with
+  object: compliance-sbom-standards
+  context:
+    organization: org-adobe
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+- subject: pattern-zero-trust-architecture
+  predicate: co_occurs_with
+  object: compliance-fedramp
+  context:
+    organization: org-department-of-veteran-affairs
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+- subject: pattern-serverless-architecture
+  predicate: co_occurs_with
+  object: pattern-event-driven-architecture
+  context:
+    organization: org-everyonesocial
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+- subject: pattern-domain-driven-design
+  predicate: co_occurs_with
+  object: pattern-clean-architecture
+  context:
+    organization: org-arine
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: pattern-devsecops
+  predicate: co_occurs_with
+  object: pattern-shift-left-security
+  context:
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07

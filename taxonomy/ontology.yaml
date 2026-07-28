@@ -1,0 +1,200 @@
+# Ontology Schema Definition
+# Describes entity types, relationship types, cardinality rules, and structural constraints
+# for the taxonomy knowledge graph.
+
+meta:
+  version: "1.0.0"
+  description: >
+    Schema and meta-definition for the CV taxonomy knowledge graph.
+    Defines entity types, relationship predicates, context dimensions,
+    and cardinality rules enabling rich contextual queries.
+  author: "Shane Spencer"
+  generated_by: "scripts/extract_taxonomy.py"
+
+entity_types:
+  skill:
+    description: "A technology, language, framework, library, or tool"
+    id_prefix: "skill-"
+    required_fields: [id, name, category]
+    optional_fields: [description, aliases, subcategory]
+    categories:
+      - language
+      - framework
+      - platform
+      - tool
+      - library
+      - protocol
+      - database
+      - methodology
+
+  domain:
+    description: "A business or industry domain/vertical"
+    id_prefix: "domain-"
+    required_fields: [id, name]
+    optional_fields: [description, aliases, parent_domain]
+
+  organization:
+    description: "A company, agency, or entity where work was performed"
+    id_prefix: "org-"
+    required_fields: [id, name]
+    optional_fields: [description, aliases, parent_org, org_type]
+    org_types:
+      - employer
+      - client
+      - contractor
+      - proprietorship
+      - federal_agency
+      - enterprise
+
+  role:
+    description: "A job title or functional role held at an organization"
+    id_prefix: "role-"
+    required_fields: [id, name, organization]
+    optional_fields: [description, level, timeframe]
+    levels:
+      - individual_contributor
+      - senior
+      - lead
+      - principal
+      - manager
+      - director
+
+  project:
+    description: "A specific initiative, product, or engagement"
+    id_prefix: "project-"
+    required_fields: [id, name]
+    optional_fields: [description, aliases, organization, domain]
+
+  compliance:
+    description: "A regulatory framework, standard, or certification"
+    id_prefix: "compliance-"
+    required_fields: [id, name]
+    optional_fields: [description, aliases, governing_body, scope]
+    scopes:
+      - healthcare
+      - federal
+      - security
+      - data_privacy
+      - supply_chain
+
+  pattern:
+    description: "A design pattern, architectural philosophy, or engineering methodology"
+    id_prefix: "pattern-"
+    required_fields: [id, name]
+    optional_fields: [description, aliases, category]
+    categories:
+      - architecture
+      - security
+      - development
+      - operations
+      - data
+
+  tag:
+    description: "A keyword or descriptor used for classification (from pipe-delimited tags in CV)"
+    id_prefix: "tag-"
+    required_fields: [id, name]
+    optional_fields: [description, source_context]
+
+relationship_types:
+  used_at:
+    description: "A skill/technology was applied at an organization"
+    subject_types: [skill]
+    object_types: [organization]
+    context_dimensions: [role, project, domain, compliance, timeframe, co_skills]
+
+  applied_in_project:
+    description: "A skill/technology was used in a specific project or initiative"
+    subject_types: [skill]
+    object_types: [project]
+    context_dimensions: [organization, role, domain, timeframe, co_skills]
+
+  governed_by:
+    description: "Work or project was subject to a compliance/regulatory framework"
+    subject_types: [project, organization, role]
+    object_types: [compliance]
+    context_dimensions: [domain, timeframe, organization]
+
+  operates_in_domain:
+    description: "An organization, project, or role operates within a business domain"
+    subject_types: [organization, project, role]
+    object_types: [domain]
+    context_dimensions: [timeframe, compliance]
+
+  held_role_at:
+    description: "A role was held at an organization during a timeframe"
+    subject_types: [role]
+    object_types: [organization]
+    context_dimensions: [timeframe, domain, project]
+
+  implements_pattern:
+    description: "A project or role implemented a design pattern or methodology"
+    subject_types: [project, role]
+    object_types: [pattern]
+    context_dimensions: [organization, domain, timeframe, co_skills]
+
+  part_of:
+    description: "An entity is a component or subdivision of another"
+    subject_types: [organization, project, skill]
+    object_types: [organization, project, skill]
+    context_dimensions: []
+
+  co_occurs_with:
+    description: "Two entities frequently appear together in the same context"
+    subject_types: [skill, pattern, compliance]
+    object_types: [skill, pattern, compliance]
+    context_dimensions: [organization, project, domain, timeframe]
+
+context_dimensions:
+  timeframe:
+    description: "The period during which the relationship was active"
+    format: "{start_date} to {end_date}"
+    examples: ["2024-07 to present", "2020-01 to 2024-07"]
+
+  role:
+    description: "The role held when the relationship was active"
+    references: "role entity ID"
+
+  project:
+    description: "The project context for the relationship"
+    references: "project entity ID"
+
+  domain:
+    description: "The business domain context"
+    references: "domain entity ID"
+
+  compliance:
+    description: "Applicable compliance/regulatory framework"
+    references: "compliance entity ID"
+
+  organization:
+    description: "The organization context"
+    references: "organization entity ID"
+
+  co_skills:
+    description: "Other skills used alongside in the same context"
+    references: "list of skill entity IDs"
+
+  timeframe:
+    description: "Time period of applicability"
+    format: "YYYY-MM to YYYY-MM or present"
+
+cardinality_rules:
+  - relationship: used_at
+    cardinality: "many-to-many"
+    note: "A skill can be used at many orgs; an org involves many skills"
+
+  - relationship: applied_in_project
+    cardinality: "many-to-many"
+    note: "Multiple skills per project; skills reused across projects"
+
+  - relationship: governed_by
+    cardinality: "many-to-many"
+    note: "A project may have multiple compliance requirements"
+
+  - relationship: held_role_at
+    cardinality: "many-to-one-per-timeframe"
+    note: "Multiple roles at same org possible across different timeframes"
+
+  - relationship: implements_pattern
+    cardinality: "many-to-many"
+    note: "Projects implement multiple patterns; patterns span projects"

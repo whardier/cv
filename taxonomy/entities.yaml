@@ -1,0 +1,855 @@
+# Taxonomy Entities
+# All entities extracted from CV reference documents, organized by type.
+# Each entity has a unique slugified ID, name, and type-specific metadata.
+
+skills:
+- id: skill-python
+  name: Python
+  category: language
+  description: General-purpose programming language
+- id: skill-javascript
+  name: JavaScript
+  category: language
+  description: Web programming language
+- id: skill-typescript
+  name: TypeScript
+  category: language
+  description: Typed superset of JavaScript
+- id: skill-shell
+  name: Shell
+  category: language
+  description: Shell scripting (Bash/Zsh)
+- id: skill-c
+  name: C
+  category: language
+  description: Systems programming language
+- id: skill-cpp
+  name: C++
+  category: language
+  description: Systems programming language with OOP
+- id: skill-pl-sql
+  name: PL/SQL
+  category: language
+  description: Oracle procedural SQL extension
+- id: skill-fastapi
+  name: FastAPI
+  category: framework
+  description: Modern Python web framework
+- id: skill-django
+  name: Django
+  category: framework
+  description: Python web framework
+- id: skill-react
+  name: React
+  category: framework
+  description: JavaScript UI library
+- id: skill-redux
+  name: Redux
+  category: framework
+  description: State management for React
+- id: skill-react-native
+  name: React Native
+  category: framework
+  description: Cross-platform mobile framework
+- id: skill-vuejs
+  name: VueJS
+  category: framework
+  description: Progressive JavaScript framework
+- id: skill-nuxtjs
+  name: NuxtJS
+  category: framework
+  description: Vue.js meta-framework
+- id: skill-riotjs
+  name: RiotJS
+  category: framework
+  description: Simple component-based UI library
+- id: skill-graphql
+  name: GraphQL
+  category: framework
+  description: API query language and runtime
+- id: skill-serverless-framework
+  name: Serverless Framework
+  category: framework
+  description: Serverless application toolkit
+- id: skill-celery
+  name: Celery
+  category: framework
+  description: Distributed task queue for Python
+- id: skill-aws
+  name: AWS
+  category: platform
+  description: Amazon Web Services cloud platform
+- id: skill-aws-lambda
+  name: AWS Lambda
+  category: platform
+  description: Serverless compute service
+- id: skill-aws-dynamodb
+  name: AWS DynamoDB
+  category: platform
+  description: NoSQL database service
+- id: skill-aws-sqs
+  name: AWS SQS
+  category: platform
+  description: Message queuing service
+- id: skill-aws-eventbridge
+  name: AWS EventBridge
+  category: platform
+  description: Serverless event bus
+- id: skill-aws-kinesis
+  name: AWS Kinesis
+  category: platform
+  description: Real-time data streaming
+- id: skill-aws-s3
+  name: AWS S3
+  category: platform
+  description: Object storage service
+- id: skill-aws-api-gateway
+  name: AWS API Gateway
+  category: platform
+  description: API management service
+- id: skill-aws-athena
+  name: AWS Athena
+  category: platform
+  description: Interactive query service
+- id: skill-aws-timestream
+  name: AWS Timestream
+  category: platform
+  description: Time series database
+- id: skill-aws-redshift
+  name: AWS RedShift
+  category: platform
+  description: Data warehouse service
+- id: skill-aws-appsync
+  name: AWS AppSync
+  category: platform
+  description: Managed GraphQL service
+- id: skill-aws-govcloud
+  name: AWS GovCloud
+  category: platform
+  description: Government cloud region
+- id: skill-aws-x-ray
+  name: AWS X-Ray
+  category: platform
+  description: Distributed tracing service
+- id: skill-aws-cloudwatch
+  name: AWS CloudWatch
+  category: platform
+  description: Monitoring and observability
+- id: skill-aws-powertools
+  name: AWS Powertools
+  category: platform
+  description: Lambda developer toolkit
+- id: skill-azure
+  name: Azure
+  category: platform
+  description: Microsoft cloud platform
+- id: skill-digital-ocean
+  name: Digital Ocean
+  category: platform
+  description: Cloud infrastructure provider
+- id: skill-cloudflare
+  name: CloudFlare
+  category: platform
+  description: Edge/CDN platform
+- id: skill-kubernetes
+  name: Kubernetes
+  category: tool
+  description: Container orchestration platform
+- id: skill-docker
+  name: Docker
+  category: tool
+  description: Container runtime and tooling
+- id: skill-terraform
+  name: Terraform
+  category: tool
+  description: Infrastructure as Code tool
+- id: skill-saltstack
+  name: SaltStack
+  category: tool
+  description: Configuration management
+- id: skill-ansible
+  name: Ansible
+  category: tool
+  description: Automation and configuration management
+- id: skill-github-actions
+  name: GitHub Actions
+  category: tool
+  description: CI/CD platform
+- id: skill-circleci
+  name: CircleCI
+  category: tool
+  description: CI/CD platform
+- id: skill-argocd
+  name: ArgoCD
+  category: tool
+  description: GitOps continuous delivery
+- id: skill-jenkins
+  name: Jenkins
+  category: tool
+  description: CI/CD automation server
+- id: skill-git
+  name: Git
+  category: tool
+  description: Distributed version control
+- id: skill-datadog
+  name: DataDog
+  category: tool
+  description: Monitoring and analytics platform
+- id: skill-prometheus
+  name: Prometheus
+  category: tool
+  description: Monitoring and alerting toolkit
+- id: skill-logicmonitor
+  name: LogicMonitor
+  category: tool
+  description: Infrastructure monitoring
+- id: skill-thousandeyes
+  name: ThousandEyes
+  category: tool
+  description: Network intelligence platform
+- id: skill-reportlab
+  name: ReportLab
+  category: tool
+  description: PDF generation library for Python
+- id: skill-typst
+  name: Typst
+  category: tool
+  description: Modern typesetting system
+- id: skill-mistql
+  name: MistQL
+  category: tool
+  description: Query language for JSON
+- id: skill-cyclonedx
+  name: CycloneDX
+  category: tool
+  description: SBOM standard and tooling
+- id: skill-spdx
+  name: SPDX
+  category: tool
+  description: Software package data exchange
+- id: skill-apache-kafka
+  name: Apache Kafka
+  category: tool
+  description: Distributed event streaming
+- id: skill-rabbitmq
+  name: RabbitMQ
+  category: tool
+  description: Message broker
+- id: skill-asterisk-pbx
+  name: Asterisk PBX
+  category: tool
+  description: Open source telephony engine
+- id: skill-ceph
+  name: Ceph
+  category: tool
+  description: Distributed storage system
+- id: skill-gdal-ogr
+  name: GDAL/OGR
+  category: tool
+  description: Geospatial data abstraction library
+- id: skill-snapcraft
+  name: SnapCraft
+  category: tool
+  description: Linux application packaging
+- id: skill-ubuntu-core
+  name: Ubuntu Core
+  category: tool
+  description: Minimal Ubuntu for IoT/embedded
+- id: skill-ipxe
+  name: iPXE
+  category: tool
+  description: Network boot firmware
+- id: skill-opentelemetry
+  name: OpenTelemetry
+  category: library
+  description: Observability framework
+- id: skill-json-patch
+  name: JSON Patch
+  category: library
+  description: JSON document patching standard
+- id: skill-snmp
+  name: SNMP
+  category: protocol
+  description: Network management protocol
+- id: skill-sip-iax
+  name: SIP/IAX
+  category: protocol
+  description: VoIP signaling protocols
+- id: skill-smtp
+  name: SMTP
+  category: protocol
+  description: Email transfer protocol
+- id: skill-hl7-fhir
+  name: HL7/FHIR
+  category: protocol
+  description: Healthcare data exchange standards
+- id: skill-dicom
+  name: DICOM
+  category: protocol
+  description: Medical imaging standard
+- id: skill-twilio
+  name: Twilio
+  category: platform
+  description: Cloud communications platform
+- id: skill-postgresql
+  name: PostgreSQL
+  category: database
+  description: Advanced open source RDBMS
+- id: skill-postgis
+  name: PostGIS
+  category: database
+  description: Geospatial extension for PostgreSQL
+- id: skill-snowflakedb
+  name: SnowflakeDB
+  category: database
+  description: Cloud data warehouse
+- id: skill-mongodb
+  name: MongoDB
+  category: database
+  description: Document-oriented NoSQL database
+- id: skill-redis
+  name: Redis
+  category: database
+  description: In-memory data store
+- id: skill-intersystems-iris-cache
+  name: Intersystems IRIS/Cache
+  category: database
+  description: High-performance database
+- id: skill-oracle
+  name: Oracle
+  category: database
+  description: Enterprise RDBMS
+- id: skill-prompt-engineering
+  name: Prompt Engineering
+  category: methodology
+  description: LLM prompt design and optimization
+- id: skill-ci-cd
+  name: CI/CD
+  category: methodology
+  description: Continuous integration and deployment
+- id: skill-infrastructure-as-code
+  name: Infrastructure as Code
+  category: methodology
+  description: Managing infra through code
+- id: skill-devsecops
+  name: DevSecOps
+  category: methodology
+  description: Security integrated into DevOps
+- id: skill-penetration-testing
+  name: Penetration Testing
+  category: methodology
+  description: Security testing methodology
+- id: skill-dependency-scanning
+  name: Dependency Scanning
+  category: methodology
+  description: Automated vulnerability detection in deps
+- id: skill-synthetic-data-generation
+  name: Synthetic Data Generation
+  category: methodology
+  description: Creating artificial test data
+- id: skill-machine-learning
+  name: Machine Learning
+  category: methodology
+  description: Statistical learning systems
+domains:
+- id: domain-healthcare
+  name: Healthcare
+  description: Clinical workflows, medication management, patient care
+- id: domain-federal-government
+  name: Federal/Government
+  description: Government agencies, compliance, public sector
+- id: domain-telecommunications
+  name: Telecommunications
+  description: Telephony, VoIP, network infrastructure
+- id: domain-iot-industrial
+  name: IoT/Industrial
+  description: Internet of Things, edge computing, device fleets
+- id: domain-security
+  name: Security
+  description: Cybersecurity, supply chain security, zero-trust
+- id: domain-gis-geospatial
+  name: GIS/Geospatial
+  description: Geographic information systems, spatial data
+- id: domain-advertising-media
+  name: Advertising/Media
+  description: Ad tech, VOD, campaign management, analytics
+- id: domain-ag-tech
+  name: Ag-Tech
+  description: Agricultural technology, hydroponics, environmental control
+- id: domain-finance-enterprise
+  name: Finance/Enterprise
+  description: Financial services, enterprise architecture
+- id: domain-saas-product
+  name: SaaS/Product
+  description: Software as a Service, product development
+- id: domain-telemedicine
+  name: Telemedicine
+  description: Remote healthcare, radiology, clinical imaging
+- id: domain-observability
+  name: Observability
+  description: System monitoring, telemetry, distributed tracing
+- id: domain-edge-computing
+  name: Edge Computing
+  description: Edge-optimized architectures, hardware security
+- id: domain-data-engineering
+  name: Data Engineering
+  description: Data pipelines, warehousing, analytics
+organizations:
+- id: org-arine
+  name: Arine
+  org_type: employer
+  description: Healthcare SaaS - clinical decision support
+- id: org-brute-technologies
+  name: Brute Technologies
+  org_type: proprietorship
+  description: Sole proprietorship - technical consulting
+- id: org-adobe
+  name: Adobe
+  org_type: client
+  description: Enterprise software company
+  parent_org: org-teksystems
+- id: org-teksystems
+  name: TekSystems
+  org_type: contractor
+  description: IT staffing and services
+- id: org-capital-group
+  name: Capital Group
+  org_type: client
+  description: Investment management firm
+  parent_org: org-insight-global
+- id: org-insight-global
+  name: Insight Global
+  org_type: contractor
+  description: Staffing and services
+- id: org-department-of-veteran-affairs
+  name: Department of Veteran Affairs
+  org_type: federal_agency
+  description: US federal healthcare agency
+  parent_org: org-docme360
+- id: org-docme360
+  name: DocMe360
+  org_type: contractor
+  description: Healthcare technology services
+- id: org-serverless
+  name: Serverless
+  org_type: client
+  description: Serverless computing company
+- id: org-taos
+  name: Taos
+  org_type: contractor
+  description: IT consulting firm
+  parent_org: org-ibm-consulting
+- id: org-ibm-consulting
+  name: IBM Consulting
+  org_type: client
+  description: Enterprise consulting
+- id: org-metify
+  name: Metify
+  org_type: employer
+  description: PaaS/edge computing startup
+- id: org-everyonesocial
+  name: EveryoneSocial
+  org_type: employer
+  description: Social media SaaS platform
+- id: org-cgi
+  name: CGI
+  org_type: contractor
+  description: IT and consulting services
+- id: org-ibm
+  name: IBM
+  org_type: client
+  description: Enterprise technology company
+- id: org-at-t
+  name: AT&T
+  org_type: client
+  description: Telecommunications company
+- id: org-abr
+  name: ABR
+  org_type: employer
+  description: Environmental research and GIS
+- id: org-microcom
+  name: Microcom
+  org_type: employer
+  description: Telecommunications provider
+  parent_org: org-sateo
+- id: org-sateo
+  name: Sateo
+  org_type: employer
+  description: Telecommunications services
+- id: org-gardyn
+  name: Gardyn
+  org_type: client
+  description: Ag-tech / autonomous hydroponics
+- id: org-various-organizations
+  name: Various Organizations
+  org_type: umbrella
+  description: Multiple client engagements as consultant
+roles:
+- id: role-document-engineering-manager
+  name: Document Engineering Manager
+  organization: org-arine
+  level: manager
+  timeframe: 2024-07 to present
+- id: role-full-stack-engineering-team-lead
+  name: Full Stack Engineering Team Lead
+  organization: org-arine
+  level: lead
+  timeframe: 2024-07 to present
+- id: role-strategic-technology-consultant
+  name: Strategic Technology Consultant
+  organization: org-various-organizations
+  level: senior
+  timeframe: 2020-01 to 2024-07
+- id: role-senior-software-engineer
+  name: Senior Software Engineer
+  organization: org-various-organizations
+  level: senior
+  timeframe: 2020-01 to 2024-07
+- id: role-principal-system-engineer
+  name: Principal System Engineer
+  organization: org-metify
+  level: principal
+  timeframe: 2023-01 to 2023-05
+- id: role-senior-software-development-engineer
+  name: Senior Software Development Engineer
+  organization: org-everyonesocial
+  level: senior
+  timeframe: 2020-12 to 2022-12
+- id: role-platform-engineer
+  name: Platform Engineer
+  organization: org-everyonesocial
+  level: senior
+  timeframe: 2020-12 to 2022-12
+- id: role-technology-development-consultant
+  name: Technology Development Consultant
+  organization: org-brute-technologies
+  level: senior
+  timeframe: 2002-03 to present
+- id: role-senior-system-engineer
+  name: Senior System Engineer
+  organization: org-cgi
+  level: senior
+  timeframe: 2016-08 to 2020-12
+- id: role-gis-specialist
+  name: GIS Specialist
+  organization: org-abr
+  level: individual_contributor
+  timeframe: 2013-04 to 2015-01
+- id: role-telecom-manager
+  name: Telecom Manager
+  organization: org-microcom
+  level: manager
+  timeframe: 2008-05 to 2012-07
+- id: role-lead-system-engineer
+  name: Lead System Engineer
+  organization: org-microcom
+  level: lead
+  timeframe: 2008-05 to 2012-07
+projects:
+- id: project-sbom-services
+  name: SBOM Services
+  organization: org-adobe
+  description: Enterprise SBOM automation with FastAPI and Python
+- id: project-patient-letter-generation
+  name: Patient Letter Generation
+  organization: org-arine
+  description: Scalable document generation for patient/provider letters
+- id: project-clinical-workflow-portals
+  name: Clinical Workflow Portals
+  organization: org-arine
+  description: Serverless SaaS portals for medication management
+- id: project-network-observability-transition
+  name: Network Observability Transition
+  organization: org-capital-group
+  description: Legacy monitoring to Prometheus/OTel architecture
+- id: project-synthetic-data-generation
+  name: Synthetic Data Generation
+  organization: org-department-of-veteran-affairs
+  description: Privacy-compliant test environments for ML validation
+- id: project-zero-trust-data-framework
+  name: Zero-Trust Data Framework
+  organization: org-department-of-veteran-affairs
+  description: Secure data management for federal healthcare
+- id: project-opentelemetry-libraries
+  name: OpenTelemetry Libraries
+  organization: org-serverless
+  description: Bespoke OTel Python libraries for serverless
+- id: project-microservices-governance
+  name: Microservices Governance
+  organization: org-taos
+  description: Dependency scanning and architecture reviews at scale
+- id: project-edge-paas-provisioning
+  name: Edge PaaS Provisioning
+  organization: org-metify
+  description: Edge-optimized platform provisioning with Secure Boot
+- id: project-serverless-platform-migration
+  name: Serverless Platform Migration
+  organization: org-everyonesocial
+  description: Transition to AWS serverless architecture
+- id: project-sqs-workflow-engine
+  name: SQS Workflow Engine
+  organization: org-everyonesocial
+  description: Custom workflow engine for social media integrations
+- id: project-sbom-lifecycle
+  name: SBOM Lifecycle
+  organization: org-everyonesocial
+  description: CycloneDX/SPDX bill of materials implementation
+- id: project-internal-cloud-infrastructure
+  name: Internal Cloud Infrastructure
+  organization: org-cgi
+  description: High-availability cloud with SaltStack and Ceph
+- id: project-zero-trust-access-controls
+  name: Zero-Trust Access Controls
+  organization: org-cgi
+  description: BeyondCorp-style access for telecom network
+- id: project-gis-web-applications
+  name: GIS Web Applications
+  organization: org-abr
+  description: Custom GIS apps for terrestrial data processing
+- id: project-distributed-telephony-systems
+  name: Distributed Telephony Systems
+  organization: org-microcom
+  description: Regional Asterisk PBX across Hawaii/Alaska/Idaho
+- id: project-field-data-capture
+  name: Field Data Capture
+  organization: org-microcom
+  description: Django web service replacing paper workflows
+- id: project-iot-control-systems
+  name: IoT Control Systems
+  organization: org-gardyn
+  description: Autonomous hydroponic environment control
+- id: project-telemedicine-imaging
+  name: Telemedicine Imaging
+  organization: org-brute-technologies
+  description: DICOM processing for remote clinical work
+- id: project-ad-analytics-pipelines
+  name: Ad Analytics Pipelines
+  organization: org-brute-technologies
+  description: High-volume ingestion and real-time dashboards
+- id: project-review-management-system
+  name: Review Management System
+  organization: org-arine
+  description: Software for clinical review workflows
+- id: project-mailroom-fax-integration
+  name: Mailroom/Fax Integration
+  organization: org-arine
+  description: Integration of physical mail and fax into digital workflows
+compliance:
+- id: compliance-hipaa
+  name: HIPAA
+  scope: healthcare
+  description: Health Insurance Portability and Accountability Act
+- id: compliance-cms
+  name: CMS
+  scope: healthcare
+  description: Centers for Medicare and Medicaid Services regulations
+- id: compliance-medicare-medicaid
+  name: Medicare/Medicaid
+  scope: healthcare
+  description: Federal healthcare program mandates
+- id: compliance-hl7-fhir
+  name: HL7/FHIR
+  scope: healthcare
+  description: Health Level 7 / Fast Healthcare Interoperability Resources
+- id: compliance-soc-i-ii
+  name: SOC I/II
+  scope: security
+  description: Service Organization Control audit standards
+- id: compliance-owasp
+  name: OWASP
+  scope: security
+  description: Open Web Application Security Project benchmarks
+- id: compliance-fedramp
+  name: FedRAMP
+  scope: federal
+  description: Federal Risk and Authorization Management Program
+- id: compliance-va-federal-pii-phi
+  name: VA/Federal PII/PHI
+  scope: federal
+  description: Veterans Affairs data protection regulations
+- id: compliance-zero-trust-beyondcorp
+  name: Zero-Trust/BeyondCorp
+  scope: security
+  description: Zero-trust network architecture model
+- id: compliance-secure-boot
+  name: Secure Boot
+  scope: supply_chain
+  description: Hardware boot chain verification
+- id: compliance-sbom-standards
+  name: SBOM Standards
+  scope: supply_chain
+  description: Software Bill of Materials (CycloneDX, SPDX)
+patterns:
+- id: pattern-clean-architecture
+  name: Clean Architecture
+  category: architecture
+  description: Separation of concerns with dependency inversion
+- id: pattern-domain-driven-design
+  name: Domain-Driven Design
+  category: architecture
+  description: Software design centered on business domain models
+- id: pattern-event-driven-architecture
+  name: Event-Driven Architecture
+  category: architecture
+  description: Systems communicating through events
+- id: pattern-microservice-architecture
+  name: Microservice Architecture
+  category: architecture
+  description: Decomposed services with independent deployment
+- id: pattern-serverless-architecture
+  name: Serverless Architecture
+  category: architecture
+  description: Cloud-native functions without server management
+- id: pattern-asynchronous-process-design
+  name: Asynchronous Process Design
+  category: architecture
+  description: Non-blocking concurrent processing patterns
+- id: pattern-shift-left-security
+  name: Shift-Left Security
+  category: security
+  description: Moving security earlier in the development lifecycle
+- id: pattern-zero-trust-architecture
+  name: Zero-Trust Architecture
+  category: security
+  description: Never trust, always verify access model
+- id: pattern-devsecops
+  name: DevSecOps
+  category: operations
+  description: Security integrated into development operations
+- id: pattern-infrastructure-as-code
+  name: Infrastructure as Code
+  category: operations
+  description: Managing infrastructure through declarative code
+- id: pattern-agentic-engineering
+  name: Agentic Engineering
+  category: development
+  description: AI agent-driven development workflows
+- id: pattern-platform-as-a-service
+  name: Platform as a Service
+  category: architecture
+  description: Abstracted infrastructure for app deployment
+- id: pattern-edge-optimized-architecture
+  name: Edge-Optimized Architecture
+  category: architecture
+  description: Computing at the network edge
+- id: pattern-predictive-analytics
+  name: Predictive Analytics
+  category: data
+  description: Using data patterns to forecast outcomes
+- id: pattern-distributed-tracing
+  name: Distributed Tracing
+  category: operations
+  description: Tracking requests across distributed systems
+tags:
+- id: tag-document-automation
+  name: Document Automation
+- id: tag-developer-experience
+  name: Developer Experience
+- id: tag-advanced-templating-engines
+  name: Advanced Templating Engines
+- id: tag-feature-velocity
+  name: Feature Velocity
+- id: tag-healthcare-compliance
+  name: Healthcare Compliance
+- id: tag-serverless-cloud-architecture
+  name: Serverless Cloud Architecture
+- id: tag-cross-functional-leadership
+  name: Cross-Functional Leadership
+- id: tag-sdlc-governance
+  name: SDLC Governance
+- id: tag-enterprise-observability
+  name: Enterprise Observability
+- id: tag-telemetry-standardization
+  name: Telemetry Standardization
+- id: tag-custom-developer-tooling
+  name: Custom Developer Tooling
+- id: tag-privacy-preserving-architecture
+  name: Privacy-Preserving Architecture
+- id: tag-federal-compliance
+  name: Federal Compliance
+- id: tag-centralized-telemetry
+  name: Centralized Telemetry
+- id: tag-software-supply-chain-security
+  name: Software Supply Chain Security
+- id: tag-sbom-automation
+  name: SBOM Automation
+- id: tag-ci-cd-governance
+  name: CI/CD Governance
+- id: tag-enterprise-risk-mitigation
+  name: Enterprise Risk Mitigation
+- id: tag-asynchronous-architecture
+  name: Asynchronous Architecture
+- id: tag-serverless-ecosystems
+  name: Serverless Ecosystems
+- id: tag-enterprise-architecture-consulting
+  name: Enterprise Architecture Consulting
+- id: tag-microservices-governance
+  name: Microservices Governance
+- id: tag-cloud-infrastructure
+  name: Cloud Infrastructure
+- id: tag-edge-computing
+  name: Edge Computing
+- id: tag-hardware-level-security
+  name: Hardware-Level Security
+- id: tag-platform-as-a-service
+  name: Platform-as-a-Service
+- id: tag-continuous-integration-deployment
+  name: Continuous Integration/Deployment
+- id: tag-data-warehousing
+  name: Data Warehousing
+- id: tag-infrastructure-optimization
+  name: Infrastructure Optimization
+- id: tag-high-concurrency-pipelines
+  name: High-Concurrency Pipelines
+- id: tag-graphql-integrations
+  name: GraphQL Integrations
+- id: tag-python-packaging
+  name: Python Packaging
+- id: tag-remote-radiology
+  name: Remote Radiology
+- id: tag-dicom-processing
+  name: DICOM Processing
+- id: tag-hipaa-compliance
+  name: HIPAA Compliance
+- id: tag-industrial-iot
+  name: Industrial IoT
+- id: tag-hardware-integration
+  name: Hardware Integration
+- id: tag-real-time-telemetry
+  name: Real-Time Telemetry
+- id: tag-big-data-analytics
+  name: Big Data Analytics
+- id: tag-revenue-integrity
+  name: Revenue Integrity
+- id: tag-high-volume-ingestion
+  name: High-Volume Ingestion
+- id: tag-distributed-telephony
+  name: Distributed Telephony
+- id: tag-embedded-linux
+  name: Embedded Linux
+- id: tag-custom-tooling
+  name: Custom Tooling
+- id: tag-mission-critical-infrastructure
+  name: Mission-Critical Infrastructure
+- id: tag-zero-trust-access
+  name: Zero-Trust Access
+- id: tag-high-availability-systems
+  name: High-Availability Systems
+- id: tag-complex-data-processing
+  name: Complex Data Processing
+- id: tag-geospatial-architecture
+  name: Geospatial Architecture
+- id: tag-workflow-automation
+  name: Workflow Automation
+- id: tag-data-pipeline-engineering
+  name: Data Pipeline Engineering
+- id: tag-distributed-systems
+  name: Distributed Systems
+- id: tag-voice-operations
+  name: Voice Operations
+- id: tag-legacy-integration
+  name: Legacy Integration
+- id: tag-signature-processing
+  name: Signature Processing
+- id: tag-operational-analytics
+  name: Operational Analytics
