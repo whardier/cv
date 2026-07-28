@@ -174,10 +174,6 @@ context_dimensions:
     description: "Other skills used alongside in the same context"
     references: "list of skill entity IDs"
 
-  timeframe:
-    description: "Time period of applicability"
-    format: "YYYY-MM to YYYY-MM or present"
-
 cardinality_rules:
   - relationship: used_at
     cardinality: "many-to-many"

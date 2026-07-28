@@ -129,6 +129,57 @@ def validate():
         if section not in ontology:
             errors.append(f"Ontology missing section: {section}")
 
+    # Build entity-to-type mapping for type constraint checks
+    entity_type_map = {}
+    type_prefix_map = {}
+    if "entity_types" in ontology:
+        for type_name, type_def in ontology["entity_types"].items():
+            prefix = type_def.get("id_prefix", "")
+            type_prefix_map[prefix] = type_name
+
+    for category, items in entities.items():
+        if isinstance(items, list):
+            for item in items:
+                if isinstance(item, dict) and "id" in item:
+                    eid = item["id"]
+                    # Determine type from prefix
+                    for prefix, type_name in type_prefix_map.items():
+                        if eid.startswith(prefix):
+                            entity_type_map[eid] = type_name
+                            break
+
+    # Validate relationship type constraints from ontology
+    rel_types = ontology.get("relationship_types", {})
+    for i, rel in enumerate(relationships):
+        predicate = rel.get("predicate", "")
+        subj = rel.get("subject", "")
+        obj = rel.get("object", "")
+
+        if predicate not in rel_types:
+            continue  # Unknown predicate - already caught by other checks
+
+        rel_schema = rel_types[predicate]
+        subject_types = rel_schema.get("subject_types", [])
+        object_types = rel_schema.get("object_types", [])
+
+        # Check subject type constraint
+        subj_type = entity_type_map.get(subj)
+        if subj_type and subject_types and subj_type not in subject_types:
+            errors.append(
+                f"Relationship [{i}]: subject '{subj}' is type "
+                f"'{subj_type}' but '{predicate}' requires "
+                f"subject_types {subject_types}"
+            )
+
+        # Check object type constraint
+        obj_type = entity_type_map.get(obj)
+        if obj_type and object_types and obj_type not in object_types:
+            errors.append(
+                f"Relationship [{i}]: object '{obj}' is type "
+                f"'{obj_type}' but '{predicate}' requires "
+                f"object_types {object_types}"
+            )
+
     # Check for orphan entities (not referenced in any relationship)
     referenced_ids = set()
     for rel in relationships:
