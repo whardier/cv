@@ -351,6 +351,58 @@ skills:
   name: Machine Learning
   category: methodology
   description: Statistical learning systems
+- id: skill-ai
+  name: AI
+  category: methodology
+  description: Artificial intelligence concepts and applications
+- id: skill-data-science
+  name: Data Science
+  category: methodology
+  description: Data analysis, pipelines, and analytics for insight extraction
+- id: skill-gitops
+  name: GitOps
+  category: methodology
+  description: Git-based operational workflow for infrastructure and deployments
+- id: skill-sql
+  name: SQL
+  category: language
+  description: Structured Query Language for relational databases
+- id: skill-rest-apis
+  name: REST APIs
+  category: protocol
+  description: RESTful API design and implementation
+- id: skill-http
+  name: HTTP
+  category: protocol
+  description: Hypertext Transfer Protocol
+- id: skill-dns
+  name: DNS
+  category: protocol
+  description: Domain Name System
+- id: skill-webhooks
+  name: Webhooks
+  category: protocol
+  description: Event-driven HTTP callback integrations
+- id: skill-sso
+  name: SSO
+  category: protocol
+  description: Single Sign-On authentication
+- id: skill-oauth
+  name: OAuth
+  category: protocol
+  description: OAuth 2.0 authorization protocol
+- id: skill-saml
+  name: SAML
+  category: protocol
+  description: Security Assertion Markup Language for enterprise SSO
+- id: skill-scim
+  name: SCIM
+  category: protocol
+  description: System for Cross-domain Identity Management provisioning
+- id: skill-mfa
+  name: MFA
+  category: protocol
+  description: Multi-factor authentication
 domains:
 - id: domain-healthcare
   name: Healthcare
@@ -671,6 +723,10 @@ compliance:
   name: Zero-Trust/BeyondCorp
   scope: security
   description: Zero-trust network architecture model
+- id: compliance-iso-27001
+  name: ISO 27001
+  scope: security
+  description: Information security management system standard
 - id: compliance-secure-boot
   name: Secure Boot
   scope: supply_chain

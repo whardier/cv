@@ -2864,3 +2864,448 @@ relationships:
     organization: org-arine
     domain: domain-healthcare
     timeframe: 2024-07 to present
+# --- Foundational technology relationships ---
+- subject: skill-sql
+  predicate: used_at
+  object: org-abr
+  context:
+    role: role-gis-specialist
+    domain: domain-gis-geospatial
+    timeframe: 2013-04 to 2015-01
+    co_skills:
+    - skill-postgresql
+    - skill-postgis
+    - skill-python
+- subject: skill-sql
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-data-engineering
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-snowflakedb
+    - skill-aws-athena
+    - skill-aws-redshift
+- subject: skill-sql
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-oracle
+    - skill-pl-sql
+    - skill-python
+- subject: skill-sql
+  predicate: applied_in_project
+  object: project-gis-web-applications
+  context:
+    organization: org-abr
+    role: role-gis-specialist
+    domain: domain-gis-geospatial
+    timeframe: 2013-04 to 2015-01
+- subject: skill-sql
+  predicate: applied_in_project
+  object: project-ad-analytics-pipelines
+  context:
+    organization: org-brute-technologies
+    role: role-technology-development-consultant
+    domain: domain-advertising-media
+    timeframe: 2002-03 to present
+- subject: skill-rest-apis
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    project: project-sbom-services
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-fastapi
+    - skill-python
+    - skill-kubernetes
+- subject: skill-rest-apis
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    co_skills:
+    - skill-aws-api-gateway
+    - skill-aws-lambda
+    - skill-python
+- subject: skill-rest-apis
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-aws-api-gateway
+    - skill-python
+    - skill-graphql
+- subject: skill-rest-apis
+  predicate: applied_in_project
+  object: project-sbom-services
+  context:
+    organization: org-adobe
+    role: role-senior-software-engineer
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+- subject: skill-rest-apis
+  predicate: applied_in_project
+  object: project-clinical-workflow-portals
+  context:
+    organization: org-arine
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: skill-http
+  predicate: used_at
+  object: org-adobe
+  context:
+    role: role-senior-software-engineer
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-fastapi
+    - skill-rest-apis
+    - skill-python
+- subject: skill-http
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-full-stack-engineering-team-lead
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    co_skills:
+    - skill-aws-api-gateway
+    - skill-rest-apis
+    - skill-python
+- subject: skill-http
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-aws-api-gateway
+    - skill-graphql
+    - skill-python
+- subject: skill-http
+  predicate: used_at
+  object: org-brute-technologies
+  context:
+    role: role-technology-development-consultant
+    domain: domain-saas-product
+    timeframe: 2002-03 to present
+    co_skills:
+    - skill-python
+    - skill-django
+    - skill-cloudflare
+- subject: skill-dns
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-infrastructure-as-code
+    - skill-saltstack
+    - skill-python
+- subject: skill-dns
+  predicate: used_at
+  object: org-microcom
+  context:
+    role: role-telecom-manager
+    domain: domain-telecommunications
+    timeframe: 2008-05 to 2012-07
+    co_skills:
+    - skill-shell
+    - skill-python
+- subject: skill-dns
+  predicate: applied_in_project
+  object: project-internal-cloud-infrastructure
+  context:
+    organization: org-cgi
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+- subject: skill-webhooks
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-aws-eventbridge
+    - skill-aws-sqs
+    - skill-python
+- subject: skill-webhooks
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-document-engineering-manager
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    co_skills:
+    - skill-aws-sqs
+    - skill-python
+- subject: skill-webhooks
+  predicate: applied_in_project
+  object: project-sqs-workflow-engine
+  context:
+    organization: org-everyonesocial
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+- subject: skill-webhooks
+  predicate: applied_in_project
+  object: project-mailroom-fax-integration
+  context:
+    organization: org-arine
+    role: role-document-engineering-manager
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+# --- AI/ML umbrella concepts ---
+- subject: skill-ai
+  predicate: used_at
+  object: org-arine
+  context:
+    role: role-document-engineering-manager
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+    co_skills:
+    - skill-prompt-engineering
+    - skill-python
+    - skill-machine-learning
+- subject: skill-ai
+  predicate: used_at
+  object: org-department-of-veteran-affairs
+  context:
+    role: role-strategic-technology-consultant
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+    co_skills:
+    - skill-machine-learning
+    - skill-synthetic-data-generation
+    - skill-python
+- subject: skill-ai
+  predicate: co_occurs_with
+  object: skill-machine-learning
+  context:
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: skill-ai
+  predicate: co_occurs_with
+  object: skill-prompt-engineering
+  context:
+    organization: org-arine
+    domain: domain-healthcare
+    timeframe: 2024-07 to present
+- subject: skill-data-science
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-data-engineering
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-aws-athena
+    - skill-aws-redshift
+    - skill-snowflakedb
+    - skill-sql
+- subject: skill-data-science
+  predicate: used_at
+  object: org-brute-technologies
+  context:
+    role: role-technology-development-consultant
+    domain: domain-advertising-media
+    timeframe: 2002-03 to present
+    co_skills:
+    - skill-aws-athena
+    - skill-aws-kinesis
+    - skill-python
+- subject: skill-data-science
+  predicate: applied_in_project
+  object: project-ad-analytics-pipelines
+  context:
+    organization: org-brute-technologies
+    role: role-technology-development-consultant
+    domain: domain-advertising-media
+    timeframe: 2002-03 to present
+- subject: skill-data-science
+  predicate: applied_in_project
+  object: project-synthetic-data-generation
+  context:
+    organization: org-department-of-veteran-affairs
+    role: role-strategic-technology-consultant
+    domain: domain-federal-government
+    timeframe: 2020-01 to 2024-07
+# --- Auth/Identity domain ---
+- subject: skill-sso
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-oauth
+    - skill-saml
+    - skill-mfa
+    - skill-python
+- subject: skill-sso
+  predicate: applied_in_project
+  object: project-zero-trust-access-controls
+  context:
+    organization: org-cgi
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+- subject: skill-oauth
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-sso
+    - skill-saml
+    - skill-mfa
+    - skill-python
+- subject: skill-oauth
+  predicate: used_at
+  object: org-everyonesocial
+  context:
+    role: role-senior-software-development-engineer
+    domain: domain-saas-product
+    timeframe: 2020-12 to 2022-12
+    co_skills:
+    - skill-rest-apis
+    - skill-python
+    - skill-aws-api-gateway
+- subject: skill-oauth
+  predicate: applied_in_project
+  object: project-zero-trust-access-controls
+  context:
+    organization: org-cgi
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+- subject: skill-saml
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-sso
+    - skill-oauth
+    - skill-mfa
+    - skill-python
+- subject: skill-saml
+  predicate: applied_in_project
+  object: project-zero-trust-access-controls
+  context:
+    organization: org-cgi
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+- subject: skill-scim
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-sso
+    - skill-saml
+    - skill-python
+- subject: skill-scim
+  predicate: applied_in_project
+  object: project-zero-trust-access-controls
+  context:
+    organization: org-cgi
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+- subject: skill-mfa
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-sso
+    - skill-oauth
+    - skill-saml
+    - skill-python
+- subject: skill-mfa
+  predicate: applied_in_project
+  object: project-zero-trust-access-controls
+  context:
+    organization: org-cgi
+    role: role-senior-system-engineer
+    domain: domain-security
+    timeframe: 2016-08 to 2020-12
+# --- GitOps ---
+- subject: skill-gitops
+  predicate: used_at
+  object: org-cgi
+  context:
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+    co_skills:
+    - skill-argocd
+    - skill-kubernetes
+    - skill-docker
+    - skill-ci-cd
+- subject: skill-gitops
+  predicate: applied_in_project
+  object: project-internal-cloud-infrastructure
+  context:
+    organization: org-cgi
+    role: role-senior-system-engineer
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+- subject: skill-gitops
+  predicate: co_occurs_with
+  object: skill-argocd
+  context:
+    organization: org-cgi
+    domain: domain-telecommunications
+    timeframe: 2016-08 to 2020-12
+# --- ISO 27001 compliance ---
+- subject: project-sbom-services
+  predicate: governed_by
+  object: compliance-iso-27001
+  context:
+    organization: org-adobe
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
+- subject: project-microservices-governance
+  predicate: governed_by
+  object: compliance-iso-27001
+  context:
+    organization: org-taos
+    domain: domain-finance-enterprise
+    timeframe: 2020-01 to 2024-07
+- subject: compliance-iso-27001
+  predicate: co_occurs_with
+  object: compliance-soc-i-ii
+  context:
+    domain: domain-security
+    timeframe: 2020-01 to 2024-07
